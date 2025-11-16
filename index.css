@@ -1081,3 +1081,115 @@ h2 a{
         height: 85%;
     }
 }
+
+
+
+
+@media screen and (max-width:400px) {
+    .container{
+        overflow: hidden;
+    }
+    .menu-btn{
+        display: none;
+        }    
+    li:first-child{
+        display: none;
+    }
+    li:nth-child(2){
+        display: none;
+    }
+     li:nth-child(3){
+        display: none;
+    }
+     li:nth-child(4){
+        display: none;
+    }
+     li:nth-child(5){
+        display: none;
+    }
+    
+     li:last-child
+     {
+        display: block;
+    }
+    .content1{
+        width: 100%;
+        height: auto;
+        height: max-content;
+        /* background-color:red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .content1 .name-content{
+        width: 100%;
+        /* padding: 20px; */
+        /* padding: 0 10px; */
+        /* background-color: blue; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* background-color: aliceblue; */
+    }
+    .content1 .img-content{
+        width: 100%;
+        /* background-color: #ddd; */
+    }
+
+    .content2{
+        width: 100%;
+        height: auto;
+        height: max-content;
+        /* background-color:red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .content2 .content2-left{
+        /* width: 100%; */
+
+    }
+    .content2 .content2-right{
+        width: 80%;
+        margin: auto;
+    }
+
+    .content3-all{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .content4{
+        height: auto;
+
+    }
+
+    .content4-one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content5{
+        height: auto;
+    }
+    .content5-per{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content6{
+        height: auto;
+    }
+    .content6-logo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content6-logo .img1{
+        margin: auto;
+    }
+
+
+
+
+
+}
