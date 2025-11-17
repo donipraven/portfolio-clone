@@ -794,6 +794,7 @@ h2 a{
 
 @media screen and (max-width:400px) {
     .container{
+        width: 100%;
         overflow: hidden;
     }
     .menu-btn{
